@@ -1,3 +1,26 @@
-body {
-    background-color: #ebeff5;
+.wrapper {
+    position:relative;
+    display: inline-block;
+  
+}
+.hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+    justify-self: center;
+  display: block;
+  color: black;
+}
+
+
+.box {
+    position:absolute;
+    top:0;
+    right:0 ;
+    display: block;
+    width:200px;
+    height:100px;
+    border:10px solid blue;
+    background-color:blue; 
 }
